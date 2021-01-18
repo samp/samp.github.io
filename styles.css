@@ -24,7 +24,7 @@ section {
     background: white;
 }
 
-#home{
+#home {
     width: 500px;
 }
 
@@ -66,6 +66,10 @@ ul a {
 
 p a {
     text-decoration: underline;
+}
+
+a {
+    color: black;
 }
 
 a:visited {
