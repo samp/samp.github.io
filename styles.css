@@ -10,7 +10,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 #wrapper {
@@ -34,6 +33,7 @@ section {
 
 h1 {
     font-size: 2em;
+    text-align: center;
 }
 
 #portfolio h1 {
@@ -66,6 +66,10 @@ ul a {
 
 p a {
     text-decoration: underline;
+}
+
+.centre {
+    text-align: center;
 }
 
 a {
