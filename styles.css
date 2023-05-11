@@ -47,17 +47,12 @@ h2 {
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style-type: none;
     padding-inline-start: 0;
     text-align: center;
     margin-bottom: 0;
-}
-
-li {
-    padding: 0 1rem;
-    display: flex;
-    flex-direction: column;
+    gap: 2rem;
 }
 
 ul a {
@@ -82,7 +77,7 @@ a:visited {
 }
 
 li img {
-    height: 44px;
+    height: 36px;
 }
 
 img {
