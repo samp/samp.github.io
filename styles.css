@@ -17,32 +17,31 @@ body {
 }
 
 section {
-    margin: 0 1em;
-    padding: 2em;
-    width: 700px;
+    margin: 0 1rem;
+    padding: 2rem;
     background: white;
+    box-shadow: 4px 4px 0 #000;
+    border: 1px solid #000;
 }
 
 #home {
-    width: 500px;
+   
 }
 
 #portfolio {
-    margin: 1em;
+    margin: 1rem;
+    width: 700px;
 }
 
 h1 {
-    font-size: 2em;
-    text-align: center;
-}
-
-#portfolio h1 {
+    font-size: 2rem;
     margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: 1.2em;
-    margin-top: 1.2em;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
 }
 
 ul {
@@ -51,10 +50,12 @@ ul {
     justify-content: space-evenly;
     list-style-type: none;
     padding-inline-start: 0;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 li {
-    padding: 0 1em;
+    padding: 0 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -92,12 +93,12 @@ img {
     position: fixed;
     bottom: 0;
     left: 0;
-    padding-left: 2em;
+    padding-left: 2rem;
 }
 
-@media only screen and (max-width: 700px) {
-    section, #home {
-        width: calc(100% - 4em);
-        padding: 1em;
+@media only screen and (max-width: 800px) {
+    section, #portfolio, #home {
+        width: calc(100% - 4rem);
+        padding: 1rem;
     }
 }
